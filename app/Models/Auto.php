@@ -12,6 +12,6 @@ class Auto extends Model
 
     // Relación
     public function usuario(){
-        return $this->belongsTo('App\User', 'usuario_id');
+        return $this->belongsTo('App\Models\User', 'usuario_id');
     }
 }

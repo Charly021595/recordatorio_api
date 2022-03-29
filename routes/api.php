@@ -24,3 +24,5 @@ Route::post('/conectarse', [App\Http\Controllers\UsuarioController::class, 'logi
 
 //auto
 Route::post('/autos', [App\Http\Controllers\AutosController::class, 'index']);
+Route::post('/autos/registrar_autos', [App\Http\Controllers\AutosController::class, 'registrar_auto']);
+Route::post('/autos/filtros_busqueda', [App\Http\Controllers\AutosController::class, 'filtros_busqueda']);
